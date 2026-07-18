@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Georgia Forest Community Explorer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="hero">
+
+    <div class="hero-content">
+
+        <h1>Georgia Forest Community Explorer</h1>
+
+        <p>
+            Explore Georgia's Forests with Exceptional Conservation Value.
+            Search forest communities, discover conservation priorities,
+            and access educational resources that support sustainable forest management.
+        </p>
+
+        <a href="#explorer" class="button">
+            Launch Explorer
+        </a>
+
+    </div>
+
+</header>
+
+<section id="explorer">
+
+    <h2>Explore Georgia Forest Communities</h2>
+
+    <p class="intro">
+        Search by forest community, ecoregion, or SWAP Priority Habitat.
+    </p>
+
+    <div class="search-panel">
+
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="Search forest communities..."
+        >
+
+        <select id="regionFilter">
+
+            <option value="all">All Ecoregions</option>
+
+            <option>Blue Ridge</option>
+
+            <option>Piedmont</option>
+
+            <option>Ridge and Valley</option>
+
+            <option>Southwestern Appalachians</option>
+
+            <option>Coastal Plain</option>
+
+        </select>
+
+    </div>
+
+    <div id="results">
+
+    </div>
+
+</section>
+
+<footer>
+
+    University of Georgia |
+    Georgia Sustainable Forestry Initiative
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Mixed Pine Hardwood Forest",
+    "ecoregion": "Piedmont",
+    "habitat": "Mixed Pine Hardwood Forests",
+    "description": "Mixed pine and hardwood forests that provide important wildlife habitat while supporting sustainable timber production.",
+    "pdf": "#"
+  },
+  {
+    "name": "Xeric Pine Woodlands",
+    "ecoregion": "Blue Ridge",
+    "habitat": "Dry Pine Woodlands",
+    "description": "Open pine communities adapted to dry soils and frequent fire.",
+    "pdf": "#"
+  },
+  {
+    "name": "Northern Hardwood Forest",
+    "ecoregion": "Blue Ridge",
+    "habitat": "Northern Hardwood Forests",
+    "description": "High elevation hardwood communities supporting numerous species of conservation concern.",
+    "pdf": "#"
+  }
+]
