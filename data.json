@@ -1,23 +1,215 @@
 [
   {
-    "name": "Mixed Pine Hardwood Forest",
-    "ecoregion": "Piedmont",
-    "habitat": "Mixed Pine Hardwood Forests",
-    "description": "Mixed pine and hardwood forests that provide important wildlife habitat while supporting sustainable timber production.",
-    "pdf": "#"
+    "id": "flatwoods",
+    "name": "Flatwoods",
+    "ecoregions": [
+      "Southwestern Appalachians",
+      "Ridge and Valley",
+      "Southeastern Plains",
+      "Southern Coastal Plain"
+    ],
+    "habitats": [
+      "Calcareous Flatwoods",
+      "Pine Flatwoods",
+      "Wet Oak Flats"
+    ],
+    "description": "Flatwoods occur on flat to gently rolling terrain with seasonally saturated, poorly drained soils. Historically frequent low intensity fire helped maintain these communities.",
+    "image": "assets/heroes/flatwoods.jpg",
+    "factSheet": "assets/factsheets/flatwoods.pdf"
   },
   {
-    "name": "Xeric Pine Woodlands",
-    "ecoregion": "Blue Ridge",
-    "habitat": "Dry Pine Woodlands",
-    "description": "Open pine communities adapted to dry soils and frequent fire.",
-    "pdf": "#"
+    "id": "grasslands",
+    "name": "Grasslands",
+    "ecoregions": [
+      "Southwestern Appalachians",
+      "Ridge and Valley",
+      "Southeastern Plains"
+    ],
+    "habitats": [
+      "Acidic Meadows Over Sandstone or Shale",
+      "Calcareous Prairies",
+      "Black Belt Prairies"
+    ],
+    "description": "Grasslands are open habitats occurring over shallow acidic or alkaline soils. Their open character was historically maintained by soil conditions, periodic fire, and grazing animals.",
+    "image": "assets/heroes/grasslands.jpg",
+    "factSheet": "assets/factsheets/grasslands.pdf"
   },
   {
-    "name": "Northern Hardwood Forest",
-    "ecoregion": "Blue Ridge",
-    "habitat": "Northern Hardwood Forests",
-    "description": "High elevation hardwood communities supporting numerous species of conservation concern.",
-    "pdf": "#"
+    "id": "high-elevation-hardwood",
+    "name": "High Elevation Hardwood Forest",
+    "ecoregions": [
+      "Blue Ridge"
+    ],
+    "habitats": [
+      "Northern Hardwood Forests",
+      "Boulderfield Forests"
+    ],
+    "description": "High elevation hardwood forests occur in Georgia's mountains, including cool, moist slopes above approximately 3,500 feet. These forests support valuable hardwoods, watershed protection, and sensitive species.",
+    "image": "assets/heroes/high-elevation-hardwood.jpg",
+    "factSheet": "assets/factsheets/highelevation.pdf"
+  },
+  {
+    "id": "slope-mesic-forest",
+    "name": "Slope and Mesic Forest",
+    "ecoregions": [
+      "Blue Ridge",
+      "Southwestern Appalachians",
+      "Ridge and Valley",
+      "Southeastern Plains",
+      "Southern Coastal Plain"
+    ],
+    "habitats": [
+      "Beech Magnolia Slope Forests",
+      "Hemlock Hardwood White Pine Forests",
+      "Forested Limestone Slopes and Terraces",
+      "Mesic Hardwood Forests",
+      "Limestone and Marl Outcrops",
+      "Calcareous Bluffs",
+      "Steephead Ravines"
+    ],
+    "description": "Slope and mesic forests occupy cool, shaded ravines, terraces, and north or east facing slopes. Their moist but generally unsaturated soils support diverse hardwood communities.",
+    "image": "assets/heroes/slope-mesic-forest.jpg",
+    "factSheet": "assets/factsheets/slopeandmesicforest.pdf"
+  },
+  {
+    "id": "rock-outcrops",
+    "name": "Rock Outcrops",
+    "ecoregions": [
+      "Southwestern Appalachians",
+      "Ridge and Valley",
+      "Piedmont",
+      "Southeastern Plains"
+    ],
+    "habitats": [
+      "Limestone Glades and Barrens",
+      "Sandstone Barrens and Outcrops",
+      "Granite Outcrops",
+      "Altamaha Grit Outcrops",
+      "Flint Kaolin Outcrops",
+      "Limestone and Marl Outcrops",
+      "Calcareous Bluffs"
+    ],
+    "description": "Rock outcrops include exposed granite, sandstone, flint, kaolin, and limestone formations. These fragile sites often contain sparse vegetation, rare plants, and specialized ecological communities.",
+    "image": "assets/heroes/rock-outcrops.jpg",
+    "factSheet": "assets/factsheets/rockoutcrops.pdf"
+  },
+  {
+    "id": "isolated-forested-wetland",
+    "name": "Isolated Forested Wetland",
+    "ecoregions": [
+      "Southwestern Appalachians",
+      "Ridge and Valley",
+      "Piedmont",
+      "Southeastern Plains"
+    ],
+    "habitats": [
+      "Forested Depressional Wetlands",
+      "Upland Depression Swamps",
+      "Sagponds"
+    ],
+    "description": "Isolated forested wetlands are seasonally or semi permanently flooded depressions that are often disconnected from surface streams. Their hydrology depends heavily on rainfall and surrounding runoff.",
+    "image": "assets/heroes/isolated-forested-wetland.jpg",
+    "factSheet": "assets/factsheets/isolatedforestwetlands.pdf"
+  },
+  {
+    "id": "mixed-pine-oak-woodlands",
+    "name": "Mixed Pine Oak Woodlands",
+    "ecoregions": [
+      "Blue Ridge",
+      "Southwestern Appalachians",
+      "Ridge and Valley",
+      "Piedmont"
+    ],
+    "habitats": [
+      "Mixed Pine Hardwood Forests",
+      "Montane Longleaf Pine Hardwood Forest",
+      "Oak Pine Hickory Forest",
+      "Pine Oak Woodlands and Forest",
+      "Xeric Pine Woodlands"
+    ],
+    "description": "Mixed pine oak woodlands contain fire tolerant oaks and pines. Their canopy may range from relatively closed forest to open woodland, depending on fire history, soils, slope, and disturbance.",
+    "image": "assets/heroes/mixed-pine-oak-woodlands.jpg",
+    "factSheet": "assets/factsheets/mixedpineoak.pdf"
+  },
+  {
+    "id": "oak-woodlands",
+    "name": "Oak Woodlands",
+    "ecoregions": [
+      "Blue Ridge",
+      "Southwestern Appalachians",
+      "Ridge and Valley",
+      "Piedmont"
+    ],
+    "habitats": [
+      "Oak Forests and Woodlands",
+      "Oak Woodlands",
+      "Oak Woodlands and Savannas"
+    ],
+    "description": "Oak woodlands are generally dry, open communities on rocky or sandy soils north of the Fall Line. Historically, periodic fire maintained their open canopy and diverse grasses and flowering plants.",
+    "image": "assets/heroes/oak-woodlands.jpg",
+    "factSheet": "assets/factsheets/oakwoodlands.pdf"
+  },
+  {
+    "id": "pine-savanna",
+    "name": "Pine Savanna",
+    "ecoregions": [
+      "Southeastern Plains",
+      "Southern Coastal Plain"
+    ],
+    "habitats": [
+      "Longleaf Pine Wiregrass Savannas"
+    ],
+    "description": "Pine savannas feature an open pine canopy with abundant grasses, flowering plants, and other ground vegetation. Frequent fire limits woody understory growth and maintains their biological diversity.",
+    "image": "assets/heroes/pine-savanna.jpg",
+    "factSheet": "assets/factsheets/pinesavanna.pdf"
+  },
+  {
+    "id": "wetlands-within-pine-savannas",
+    "name": "Wetlands Within Pine Savannas",
+    "ecoregions": [
+      "Southeastern Plains",
+      "Southern Coastal Plain"
+    ],
+    "habitats": [
+      "Wet Pine Savannas",
+      "Herb and Shrub Bogs"
+    ],
+    "description": "These wetlands occur within pine savanna landscapes on poorly drained soils. Open canopies and saturated, nutrient poor conditions support grasses, sedges, orchids, pitcher plants, and other specialized vegetation.",
+    "image": "assets/heroes/wetlands-within-pine-savannas.jpg",
+    "factSheet": "assets/factsheets/wetlandspinesavannas.pdf"
+  },
+  {
+    "id": "scrub-and-sandhills",
+    "name": "Scrub and Sandhills",
+    "ecoregions": [
+      "Southeastern Plains",
+      "Southern Coastal Plain"
+    ],
+    "habitats": [
+      "Longleaf Pine Scrub Oak Woodlands",
+      "Xeric Aeolian Dunes"
+    ],
+    "description": "Scrub and sandhill habitats occur on deep, well drained sands, including ancient dune systems. They commonly support longleaf pine, scrub oaks, wiregrass, lichens, and rare plants and animals.",
+    "image": "assets/heroes/scrub-and-sandhills.jpg",
+    "factSheet": "assets/factsheets/scrubandsandhills.pdf"
+  },
+  {
+    "id": "seepage-wetland",
+    "name": "Seepage Wetland",
+    "ecoregions": [
+      "Blue Ridge",
+      "Southwestern Appalachians",
+      "Southeastern Plains",
+      "Southern Coastal Plain"
+    ],
+    "habitats": [
+      "Gravelly Seeps",
+      "Hillside Seeps",
+      "Mountain Bogs and Wet Meadows",
+      "Low Elevation Seepy Thickets and Wet Woods"
+    ],
+    "description": "Seepage wetlands occur near the bases of slopes or within swales where groundwater moves toward streams or draws. They may remain saturated for part of the year and support rare moisture dependent communities.",
+    "image": "assets/heroes/seepage-wetland.jpg",
+    "factSheet": "assets/factsheets/seepagewetland.pdf"
   }
 ]

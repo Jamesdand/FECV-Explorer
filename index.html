@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -13,13 +14,18 @@
 
 </head>
 
+
 <body>
+
 
 <header class="hero">
 
     <div class="hero-content">
 
-        <h1>Georgia Forest Community Explorer</h1>
+        <h1>
+            Georgia Forest Community Explorer
+        </h1>
+
 
         <p>
             Explore Georgia's Forests with Exceptional Conservation Value.
@@ -27,23 +33,34 @@
             and access educational resources that support sustainable forest management.
         </p>
 
+
         <a href="#explorer" class="button">
             Launch Explorer
         </a>
+
 
     </div>
 
 </header>
 
+
+
 <section id="explorer">
 
-    <h2>Explore Georgia Forest Communities</h2>
+
+    <h2>
+        Explore Georgia Forest Communities
+    </h2>
+
 
     <p class="intro">
         Search by forest community, ecoregion, or SWAP Priority Habitat.
     </p>
 
+
+
     <div class="search-panel">
+
 
         <input
             type="text"
@@ -51,29 +68,109 @@
             placeholder="Search forest communities..."
         >
 
-        <select id="regionFilter">
 
-            <option value="all">All Ecoregions</option>
 
-            <option>Blue Ridge</option>
+        <select id="communityFilter">
 
-            <option>Piedmont</option>
-
-            <option>Ridge and Valley</option>
-
-            <option>Southwestern Appalachians</option>
-
-            <option>Coastal Plain</option>
+            <option value="all">
+                All Forest Communities
+            </option>
 
         </select>
 
+
+
+
+        <select id="regionFilter">
+
+
+            <option value="all">
+                All Ecoregions
+            </option>
+
+
+            <option>
+                Blue Ridge
+            </option>
+
+
+            <option>
+                Ridge and Valley
+            </option>
+
+
+            <option>
+                Southwestern Appalachians
+            </option>
+
+
+            <option>
+                Piedmont
+            </option>
+
+
+            <option>
+                Southeastern Plains
+            </option>
+
+
+            <option>
+                Southern Coastal Plain
+            </option>
+
+
+        </select>
+
+
+
+
+        <select id="habitatFilter">
+
+
+            <option value="all">
+                All SWAP Habitats
+            </option>
+
+
+        </select>
+
+
+
+
+        <button
+            id="resetButton"
+            class="button"
+        >
+
+            Reset Filters
+
+        </button>
+
+
+
     </div>
+
+
+
+
+
+    <p id="resultCount" class="result-count"></p>
+
+
+
 
     <div id="results">
 
     </div>
 
+
+
+
 </section>
+
+
+
+
 
 <footer>
 
@@ -82,7 +179,13 @@
 
 </footer>
 
+
+
+
+
 <script src="script.js"></script>
 
+
 </body>
+
 </html>
